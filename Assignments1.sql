@@ -19,9 +19,9 @@ ON Customer(FirstName,LastName);
 INSERT INTO dbo.Customer(CustomerId,FirstName,LastName,City,Country,Phone)
 VALUES (1,'VENKATA','KALYANI','GUNTUR','INDIA','3546789234'),
 (2,'A','CHINNA','MUMBAI','INDIA','8639293390'),
-(3,'B','','PRAKASH','INDIA','030-0074321'),
+(3,'B','PRAKASH','MANCHESTER','UK','6560074321'),
 (4,'MEDURI','JAYA','BANGALORE','INDIA','7894561230'),
-(5,'D','SRILAKSHMI','INDIA','INDIA','1234567890');
+(5,'D','SRILAKSHMI','PUNE','INDIA','1234567890');
 
 
 INSERT INTO dbo.Customer(CustomerId,FirstName,LastName,City,Country,Phone)
