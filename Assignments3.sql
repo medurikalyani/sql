@@ -4,9 +4,9 @@ GO
 --write a query to display the orders placed by customer with phone number 030-0074321
 
 SELECT * FROM Customer
-WHERE Phone ='030-0074321'
+WHERE Phone ='6560074321'
 
---fetching all the products which are available under Category ‘Seafood’.
+--fetching all the products which are available under Category â€˜Seafoodâ€™.
 
 SELECT * FROM ProductTable
 WHERE CATEGORY ='SeaFood'
