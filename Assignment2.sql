@@ -3,12 +3,12 @@ GO
 --Display the details from Customer table who is from country Germany
 
 SELECT * FROM Customer
-WHERE Country= 'GERMANY';
+WHERE Country= 'INDIA';
 
 select * from OrderTable
 
 update OrderTable
-set OrderDate='20220402'
+set OrderDate='2022042'
 where OrderId=3
 
 CREATE TABLE Employee(
@@ -22,11 +22,11 @@ Phone nvarchar(40),);
 
 
 INSERT INTO dbo.Employee(FirstName,LastName,City,Country,Phone)
-VALUES ('KORRAI','BHARGAV','VIZAG','INDIA','8639293390'),
-('K','SHINNY','MUMBAI','INDIA','8639293390'),
-('B','RAHUL','CHEENAI','UK','030-0074321'),
-('RAM','CHARN','BANGALORE','GERMANY','7894561230'),
-('MAHINDRA','DHONI','PUNE','INDIA','1234567890');
+VALUES ('VENKATA','KALYANI','GUNTUR','INDIA','3546789234'),
+('A','CHINNA','MUMBAI','INDIA','8639293390'),
+('B','PRAKASH','MANCHESTER','UK','030-0074321'),
+('MEDURI','JAYA','BANGALORE','GERMANY','7894561230'),
+('D','SRILAKSHMI','PUNE','INDIA','1234567890');
 
 --Display the  full name of the employee  
 
